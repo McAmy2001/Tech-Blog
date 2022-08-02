@@ -1,3 +1,59 @@
+:root {
+  --primary-color: #f1faef;
+  --secondary-color: #303a2b;
+}
+
 * {
   box-sizing: border-box;
+}
+
+body {
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+}
+
+header {
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+header h1 a {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 0px 10px;
+}
+
+header h1 a:hover {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--primary-color);
+  margin: 20px;
+  padding: 1px 6px;
+  font-size: 16px;
+}
+
+header nav a:hover {
+  text-decoration: none;
+  color: var(--secondary-color);
+  background-color: var(--primary-color);
+}
+
+#logout {
+  text-decoration: none;
+  background-color: var(--secondary-color);
+  color: var(--primary-color);
+}
+
+#logout:hover {
+  text-decoration: none;
+  background-color: var(--primary-color);
+  color: var(--secondary-color);
 }
