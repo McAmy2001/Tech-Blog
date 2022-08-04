@@ -2,8 +2,12 @@ async function newPostHandler(event) {
   event.preventDefault();
 
   const title = document.querySelector('input[name="post-title"]').value;
-  console.log(title);
   const blog_text = document.getElementById("blog_text").value;
+  if (!title || !blog_text) {
+    alert("Please enter a title and the blog text.");
+    return;
+  }
+
 
   const response = await fetch(`/api/posts`, {
     method: 'POST',
