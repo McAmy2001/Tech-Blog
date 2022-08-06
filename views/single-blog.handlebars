@@ -13,6 +13,12 @@
 {{/if}}
 
 {{> comments post.comments }}
+<br>
+{{#unless loggedIn}}
+To leave a comment, please log in 
+<a href="/login">here.</a>
+{{/unless}}
+
 {{#if loggedIn}}
 <script src="/javascript/comment.js"></script>
 {{/if}}
