@@ -1,4 +1,4 @@
-# Tech-Blog
+# Bootcamp Module 14: Model-View-Controller, Challenge: Tech-Blog
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ## This is a blog for users to post their thoughts on all things tech-y.
 ## Table of Contents:
